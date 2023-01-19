@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+body {
+  height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Overpass', sans-serif;
+}
+
+.container {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+   
+    width: 51px;
+    height: 47px;
+    font-size: 17px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    /* margin-right: 25px; */
+    background-color: hsl(213, 19%, 18%);
+    /* padding-top: 0px; */
+    color: hsl(213, 9%, 47%);
+    font-weight: 400;
+}
+
+.hide{
+    display: none;
+}
+
+.corpo {
+  width: 35vw;  
+  background-color: hsl(215, 30%, 12%);
+  border-radius: 15px;
+  color: white;
+  padding: 47px;
+}
+
+.titulo{
+    margin-top: 10%;
+    font-size: 2rem;
+    color: rgb(213, 218, 218);
+    font-weight: 700;
+}
+
+.paragrafo{
+    margin-top: 5%;
+    font-size: 16px;
+    color: hsl(220, 7%, 57%);
+    font-weight: 400;
+}
+
+.notas{
+    display:flex
+}
+
+.bola{
+    margin-top: 3%;
+    width: 66px;
+    height: 47px;
+    font-size: 17px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-right: 25px;
+    background-color: hsl(213, 19%, 18%);
+    padding-top: 5px;
+    color: hsl(213, 9%, 47%);
+    font-weight: 400;
+
+}
+
+.bola:hover{
+    background-color: #fb7413;
+    color: white;
+}
+
+
+
+.botaos{
+    
+    display: flex;
+    justify-content:center ;
+    margin-top: 10%;
+    
+    
+}
+
+.botao{
+    background-color:#fb7413;
+    width: 100%;
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid hsl(25, 97%, 53%);
+}
+
+.botao:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: #fb7413;
+}
+
+.cont{
+    display: hide;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafo2{
+    text-align: center;
+    padding: 18px;
+    font-size: 16px;
+    color: hsl(220, 7%, 57%);
+    font-weight: 400;
+}
+
+.titulo2{
+   
+}
+
+.notaDada{
+    margin-top: 5%;
+    
+}
+
+#notaTexto{
+   
+    width: 100%;
+    background-color: hsl(208, 16%, 15%);
+    
+    color: #fb7413;
+    padding: 9px;
+    border-radius: 21px;
+    font-size: 15px;
+}
